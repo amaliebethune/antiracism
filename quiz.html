@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title> How to be Antiracist</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css"
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+					 <a class="navbar-brand" href="http://amaliebethune.com"> Amalie Bethune</a>
+
+		 <div class="nav navbar-nav">
+		<a class="nav-item nav-link"href="index.html">Home</a>
+		<a class="nav-item nav-link" href="slideshow.html"> Let's Learn </a>
+		<a class="nav-item nav-link" href="bubble.html"> Let's Talk </a>
+		<a class="nav-item nav-link active" href="quiz.html"> Let's Review </a>
+</div>
+</nav>
+<h1> Let's Review</h1>
+  <div class="card text-white bg-dark mb-3">
+	<div class="card-body">
+		<h3 class="card-header">So, you think you've learned something from this page? Let's put it to the test. </h3>
+    <form id="myQuiz" action="form_processor.js" method="post">
+<div class="form-group">
+  <label> What is a microaggression?</label>
+  <div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="ma" value="angry"> When someone is angry but only a little bit.</label>
+	</div>
+  <div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="ma" value="comment"> An action or comment that conveys negative attitudes toward a minority group.</label>
+	</div>
+  <div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="ma" value="tiny"> When a small child throws a tantrum.</label>
+	</div>
+</div>
+<div class="form-group">
+	<label>What should you do if someone you know says something that has racist undertones? </label>
+	<div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="reply" value="run"> Run like the wind</label>
+	</div>
+  <div class="form-check">
+  		<label class="form-check-label">
+  			<input type="radio" name="reply" value="explain"> Calmly explain to them how their words might be hurtful to someone.</label>
+  	</div>
+    <div class="form-check">
+    		<label class="form-check-label">
+    			<input type="radio" name="reply" value="yell"> Yell at them. Call them names and start an argument</label>
+    	</div>
+    </div>
+    <div class="form-group">
+	<label>What is the best way to be Antiracist? </label>
+	<div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="way" value="none"> Do nothing. It's not your problem</label>
+	</div>
+  <div class="form-check">
+  		<label class="form-check-label">
+  			<input type="radio" name="way" value="educate"> Educate yourself! Do some research and educate your friends!</label>
+      </div>
+
+      <div class="form-check">
+		<label class="form-check-label">
+			<input type="radio" name="way" value="become"> Say you're not racist but don't actually do anything to be antiracist. </label>
+</div>
+<button class="btn btn-primary" type="submit">Check my answers</button>
+<button class="btn btn-secondary" type="reset">Let's do it again</button>
+</form>
+<div class="card-text" id="showAnswers">
+</div>

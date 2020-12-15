@@ -1,0 +1,59 @@
+/*
+essential styles:
+these make the slideshow work
+*/
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.LetsGo{
+  color: #014a14;
+  font-weight:bold;
+}
+
+#slide1{
+  color: #445b82;
+  font-size: xx-large;
+  font-weight:bolder;
+}
+#slide1text{
+  color:#1d2738;
+  font-size: medium;
+  font-weight: normal;
+}
+
+#slide2{
+  color: #445b82;
+  font-size: xx-large;
+  font-weight:bolder;
+}
+#slide2text{
+  color:#1d2738;
+  font-size: medium;
+  font-weight: normal;
+}
