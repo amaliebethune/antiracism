@@ -106,9 +106,9 @@ function writeMessage() {
           msg += result;
           // if this is not an array - check whether two simple values match
         } else if (userAnswers[key] == correctAnswers[key2]) {
-          msg += "<li>" + "This is a good sustainable practice. No points added.</li>";
+          msg += "<li>" + "Good Job.</li>";
         } else {
-          msg += "<li>" + "One point added." + "</li>";
+          msg += "<li>" + "Incorrect." + "</li>";
         }
       }
     }
