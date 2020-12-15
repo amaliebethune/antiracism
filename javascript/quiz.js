@@ -8,6 +8,7 @@ const correctAnswers = {
   way: "educate"
 
 };
+// adapted from Mindy's fiddle
 form.onsubmit = checkAnswers;
 
 function checkAnswers() {

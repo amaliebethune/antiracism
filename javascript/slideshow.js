@@ -1,3 +1,6 @@
+
+//code adapted from https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/
+
 var controls = document.querySelectorAll('.controls');
 for(var i=0; i<controls.length; i++){
   controls[i].style.display = 'inline-block';
